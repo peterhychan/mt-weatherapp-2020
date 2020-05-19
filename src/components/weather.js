@@ -17,13 +17,10 @@ const Weather = ({
           <i className={`wi ${weatherIcon} display-1`} />
         </h5>
 
-        {/* Get Celsius */}
         {temp_celsius ? <h1 className="py-2">{temp_celsius}&deg;C</h1> : null}
 
-        {/* show max and min temp */}
         {maxminTemp(temp_min, temp_max)}
 
-        {/* Weather description */}
         <h4 className="py-3">
           {description.charAt(0).toUpperCase() + description.slice(1)}
         </h4>
