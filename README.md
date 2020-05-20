@@ -1,6 +1,6 @@
 # Weather App in React
 
-### My Reflection on [dev.io]().
+### My Reflection on [dev.io](https://dev.to/peterhychan/a-weather-app-with-monetization-feature-517g).
 
 ### The demo is deployed on [now.sh](https://mt-weatherapp-2020.hoychanan.now.sh/).
 

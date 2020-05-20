@@ -7,7 +7,6 @@ const Weather = ({
   temp_celsius,
   temp_max,
   temp_min,
-  description,
 }) => {
   return (
     <div className="container text-light">
@@ -20,10 +19,6 @@ const Weather = ({
         {temp_celsius ? <h1 className="py-2">{temp_celsius}&deg;C</h1> : null}
 
         {maxminTemp(temp_min, temp_max)}
-
-        <h4 className="py-3">
-          {description.charAt(0).toUpperCase() + description.slice(1)}
-        </h4>
       </div>
     </div>
   );

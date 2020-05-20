@@ -21,7 +21,6 @@ class App extends React.Component {
     celsius: undefined,
     temp_max: null,
     temp_min: null,
-    description: "",
     error: false,
   };
 
@@ -76,7 +75,6 @@ class App extends React.Component {
         celsius: this.returnTemperature(res.main.temp),
         temp_max: this.returnTemperature(res.main.temp_max),
         temp_min: this.returnTemperature(res.main.temp_min),
-        description: res.weather[0].description,
         error: false,
       });
       // update the icon with appropriate weather
